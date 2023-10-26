@@ -1,0 +1,699 @@
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #FFE9D0;
+    margin: 0 4vw;
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    padding: 1vw 4vw;
+}
+
+.logo {
+    background-image: url('../Multimedia/logoEA.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 10vw;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 3vw 0 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1.5%;
+    text-align: center;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 2.5vw;
+    font-family: 'Kanit', sans-serif;
+    color: #283339;
+}
+
+ul li a:hover{
+    color: #FF5400;
+}
+
+.hamburger {
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+/* HOME */
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.home-palabras{
+    margin-left: 3vw;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+}
+
+.home-palabras h1 {
+    font-size: 5vw;
+}
+
+.arte{
+    color: #FF5400;
+}
+
+.home-palabras p {
+    font-size: 4vw;
+}
+
+.home-imagen img{
+    width: 50vw;
+}
+
+/* BANNER */
+
+#banner {
+    margin-bottom: 3%;
+}
+.div-banner{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.div-banner picture img{
+    width: 100%;
+}
+
+/* Ejercicios */
+
+#ejercicios {
+    margin-bottom: 5%;
+}
+
+.div-h2-ejercicios {
+    display: flex;
+    justify-content: center;
+}
+
+.div-h2-ejercicios h2 {
+    font-size: 4rem;
+    margin-bottom: 2%;
+    font-family: 'Kanit', sans-serif;
+    color: #FF5400;
+}
+
+.cards-sub-container {
+    margin-bottom: 3%;
+}
+
+.cards-sub-container h3 {
+    font-size: 3.3rem;
+    margin-bottom: 2%;
+    font-family: 'Kanit', sans-serif;
+    color: #FF5400;
+}
+
+.scroll-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.scroll-cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #283339;
+    width: 16%;
+    height: auto;
+    border-radius: 20px;
+    padding: 0.5% 1% 1% 1%;
+}
+
+.scroll-cards .card img {
+    width: 90%;
+    border-radius: 10px;
+    padding: 8% 1% 0 1%;
+    margin-bottom: 0.5vw;
+}
+
+.scroll-cards .card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.scroll-cards .card div p {
+    color: #FF8100;
+    margin: 1.5% 0;
+    font-size: 1.2vw;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ELONGACIÓN */
+
+#elongacion {
+    margin-bottom: 5%;
+    background-image: url('../Multimedia/fondo-video.jpg');
+    background-repeat: repeat;
+    background-size:contain;
+    background-position: center;
+    padding: 5% 0 8% 0;
+}
+
+.div-elongacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FF8100;
+    font-family: 'Kanit', sans-serif;
+}
+
+.div-elongacion h2 {
+    font-size: 4rem;
+    background-color: black;
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
+.div-elongacion h3 {
+    font-size: 3.3rem;
+    margin-bottom: 3%;
+    background-color: black;
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
+.div-iframe{
+    display: flex;
+    justify-content: center;
+}
+
+.div-iframe iframe{
+    width: 60%;
+    height: 35vw;
+    border: 20px solid #FF8100;
+}
+
+/* ALIMENTACIÓN */
+
+.div-h2-alimentacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.div-h2-alimentacion h2 {
+    font-size: 4rem;
+    font-family: 'Kanit', sans-serif;
+    color: #FF5400;
+}
+
+.div-h3-como,
+.div-h3-comidas {
+    margin-bottom: 1%;
+    font-family: 'Kanit', sans-serif;
+    color: #FF5400;
+}
+
+.div-h3-como h3,
+.div-h3-comidas h3 {
+    font-size: 3rem;
+}
+
+.div-p-como {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+
+.div-p-como p {
+    font-size: 1.8vw;
+    width: 40vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.alimentacion-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.alimentacion-card p {
+    font-size: 1.8vw;
+    width: 40vw;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.alimentacion-card p span{
+    font-family: 'Kanit', sans-serif;
+    color: #FF5400;
+}
+
+.alimentacion-card-img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.alimentacion-card-img img {
+    height: 17vw;
+}
+
+/* RUTINAS */
+#rutinas{
+    margin: 2% 0;
+}
+
+.div-h2-rutinas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.div-h2-rutinas h2 {
+    font-size: 4rem;
+    font-family: 'Kanit', sans-serif;
+    color: #FF5400;
+}
+
+.p-rutinas{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.8vw;
+    width: 40vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.div-rutinas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    padding: 0 2%;
+}
+
+.div-rutinas img{
+    width: 10vw
+}
+
+.div-rutinas img:hover{
+    transition: 2s ease-in-out;
+    width: 20vw;
+}
+
+.div-rutinas div{
+    text-align: center;
+    margin: 0 1%;
+}
+
+.div-rutinas div h3{
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    color: #FF5400;
+    margin-bottom: 1.5%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #283339;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+.footer-arriba{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-arriba div p{
+    margin-bottom: 1vw;
+}
+
+.footer-derecha{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-redes{
+    margin: 3vw 0;
+}
+
+.footer-redes p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+
+.redes li{
+    margin-right: 2vw;
+}
+
+.redes img{
+    height: 2.5vw;
+    width: 2.5vw;
+}
+
+.redes .youtube-footer{
+    width: 3vw;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media only screen and (max-width: 1024px) {
+    /* MENU HAMBURGUESA */
+
+    header{
+        height: 5em;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger img{
+        width: 4em;
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        background-color: #283339;
+        padding: 2%;
+        width: 30%;
+        z-index: 1;
+    }
+
+    .menu li{
+        margin: 5% 0;
+    }
+
+    .menu li a{
+        color: #FFE9D0;
+    }
+
+    #toggle-menu:checked ~ .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-palabras h1{
+        font-size: 5vw;
+    }
+
+    .home-palabras p{
+        font-size: 4vw;
+    }
+
+    /* EJERCICIOS */
+    .div-h2-ejercicios h2{
+        font-size: 4.5vw;
+    }
+
+    .cards-sub-container h3{
+        font-size: 3vw;
+    }
+
+    .scroll-cards .card{
+        width: 18%;
+    }
+
+    .scroll-cards .card div p{
+        font-size: 1.5vw;
+        width: 90%;
+    }
+
+    /* RECETA DE LA SEMANA */
+
+    .div-elongacion h2{
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    .div-elongacion h3{
+        font-size: 3.5vw;
+    }
+
+    .div-iframe iframe{
+        border: #FF8100 solid 10px;
+        width: 70%;
+        height: 37vw;
+    }
+
+    /* ALIMENTOS */
+
+    #alimentacion{
+        margin-bottom: 10%;
+    }
+
+    .div-h2-alimentacion h2{
+        font-size: 4.5vw;
+    }
+
+    .div-h3-como h3, .div-h3-comidas h3{
+        font-size: 3vw;
+    }
+
+    .div-p-como p{
+        font-size: 2vw;
+        width: 45%;
+    }
+
+    .alimentacion-card{
+        margin-bottom: 3.5%;
+    }
+
+    .alimentacion-card-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .alimentacion-card-reverse p{
+        margin-left: 5vw;
+    }
+
+    .alimentacion-card p{
+        font-size: 2vw;
+        width: 45%;
+    }
+
+    .alimentacion-card-img{
+        width: 45%;
+    }
+
+    .alimentacion-card-img img{
+        width: 35vw;
+        height: 25vw;
+    }
+
+    /* RUTINAS */
+    .div-h2-rutinas h2{
+        font-size: 4.5vw;
+    }
+
+    .p-rutinas{
+        font-size: 2vw;
+    }
+
+    .div-rutinas div h3{
+        font-size: 3vw;
+    }
+    
+    /* FOOTER */
+    .footer-izquierda{
+        font-size: 1.5vw;
+    }
+    .footer-derecha{
+        font-size: 1.5vw;
+    }
+    .footer-redes p{
+        font-size: 1.5vw;
+    }
+    .footer-redes .redes{
+        margin-top: 2%;
+    }
+    .footer-redes .redes img{
+        width: 3vw;
+        height: 3vw;
+    }
+    .footer-redes .redes .youtube-footer{
+        width: 4.5vw;
+    }
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 540px) {
+    /* HEADER */
+    header{
+        height: 12vw;
+    }
+    .logo{
+        width: 20vw;
+        height: 20vw;
+    }
+    .hamburger img{
+        width: 8vw;
+    }
+    .menu{
+        top: 12vw;
+    }
+
+    /* HOME */
+    .home-palabras h1{
+        font-size: 6vw;
+    }
+    .home-palabras p{
+        font-size: 5vw;
+    }
+    .home-imagen{
+        display: none;
+    }
+
+    /* EJERCICIOS */
+    .div-h2-ejercicios h2{
+        font-size: 5vw;
+    }
+    .cards-sub-container h3{
+        font-size: 4vw;
+    }
+    .scroll-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .scroll-cards .card{
+        width: 30%;
+        margin: 2vw 1.5vw;
+    }
+    .scroll-cards .card div p{
+        font-size: 2vw;
+    }
+
+    /* ALIMENTACIÓN */
+    .div-h2-alimentacion h2{
+        font-size: 5.5vw;
+    }
+    .div-h3-como, .div-h3-comidas{
+        margin-bottom: 3%;
+    }
+    .div-h3-como h3, .div-h3-comidas h3{
+        font-size: 4vw;
+    }
+    .div-p-como{
+        margin-bottom: 3%;
+        flex-direction: column;
+    }
+    .div-p-como p{
+        font-size: 2.5vw;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .alimentacion-card{
+        flex-direction: column;
+        margin-bottom: 8%;
+    }
+    .alimentacion-card p{
+        font-size: 2.5vw;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .alimentacion-card-img{
+        width: 100%;
+    }
+    .alimentacion-card-img img{
+        width: 55vw;
+        height: 35vw;
+    }
+
+    /* RUTINAS */
+    .div-h2-rutinas h2{
+        font-size: 4.5vw;
+    }
+
+    .p-rutinas{
+        font-size: 2.5vw;
+    }
+
+    .div-rutinas div h3{
+        font-size: 3vw;
+    }
+
+    /* FOOTER */
+    .footer-arriba{
+        flex-direction: column;
+    }
+    .footer-derecha{
+        align-items: flex-start;
+        margin-top: 3%;
+    }
+    .footer-derecha p, .footer-izquierda p, .footer-redes p{
+        font-size: 2vw;
+    }
+    .footer-redes .redes img{
+        width: 4vw;
+        height: 4vw;
+    }
+    .footer-redes .redes .youtube-footer{
+        width: 5vw;
+    }
+}
