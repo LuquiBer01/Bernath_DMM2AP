@@ -9,4 +9,4 @@ COMISIÓN: DMM2AP
 TURNO: Mañana
 MODALIDAD: Presencial
 FECHA DE ENTREGA: 27/10/2023
-URL DEL SITIO: 
+URL DEL SITIO: https://luquiber01.github.io/Bernath_Lucas_DMM2AP/
